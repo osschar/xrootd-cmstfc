@@ -22,6 +22,10 @@
 #include <iostream>
 #include <sstream>
 
+#include "XrdVersion.hh"
+
+XrdVERSIONINFO(XrdOucgetName2Name,XrdCmsTfc);
+
 #define BUFFSIZE 1024
 #define OVECCOUNT 30
 
